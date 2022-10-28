@@ -1,0 +1,17 @@
+---------------------------------------------
+Samsung Interview - 27/10
+---------------------------------------------
+1. Brief about Performance metrics of NVMe SSD ?
+
+2. Difference between python and C language ?
+
+3. Which is faster C or python....If python is slower than C, Why it is used for AI/ML applications?
+
+4. The requirement is to iterate over large number elements ? What is the most efficeint approach to do?
+
+5. we have large set of elements in a sequential order. If one number is missing, What is the efficient way to find the missing element?
+
+6. concept of RAID realted to storage ?
+
+7. 
+

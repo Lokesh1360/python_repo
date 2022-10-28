@@ -1,0 +1,23 @@
+-----------------------------------------------------
+Microchip interview on 28-10
+-----------------------------------------------------
+Have you flashed firmware manually into drive without commands from hostside?
+
+How controller resets happens? Do you know performing controller reset without involving host commands?
+
+What are power cycles and power-on device ?
+
+Have you perfomed shut-down operations on device ?
+
+Sanitise operation is in progress...Will controller reset happens or command get abort?
+
+Incase sanitise operation get aborts, How the customer comes to know about it ?
+
+How to change Number of queues in NVMe ?
+
+Write a program to implement concepts of Method over-riding and Method overloading related to OOPs ?
+
+
+
+
+

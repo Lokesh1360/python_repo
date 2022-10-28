@@ -1,0 +1,35 @@
+-----------------------------
+AMD interview 28-10
+----------------------------
+
+What is White-box testing and grey-box testing that you mentioned in your resume ?
+
+What do you test.....hardware or firmware ?
+
+What is SSD ?
+
+How your Python test scripts interact with a hardware device ?
+
+
+
+How you perform validaiton tests - Manually or through Automation ?
+-----------------------------------
+python
+------------------------------------
+write program to print factorial of a number? (don't use any built-ins)
+
+Write program to implement Linked list data structure in python ?
+	you have mentioned data structures in your resume
+
+program on OOPs concept:
+	create class and it should contain insert and delete methods
+	pass a list as parameter.
+	insert method should insert element in the list. insert method take element as argument.
+	delete method should remove the element at the specified index. it takes index as argument.
+	e.g: obj.insert(element) --> should insert the element in the list
+		 obj.delete(index) --> should remove the element in the index position specified.
+		 return updated list
+	
+	
+
+

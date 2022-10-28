@@ -1,0 +1,58 @@
+Toshiba Interview on 14/10 3pm
+
+-----------------------Scenarios from SPEC given and asked me to write ssample test cases based on that--------------------------------
+
+Scenario_1:
+NVM Subsystem Reset Occurred (NSSRO): The initial value of this field is '1' if the last occurance of an NVM Subsystem Reset occured while power was applied to the NVM subsystem. 
+	The initial value of this field is '0' following an NVM Subsystem Reset due to application of power to the NVM subsystem. 
+	This field is only valid if the controller supports the NVM Subsystem Reset feature defined in section 7.3.1 as indicated by CAP.NSSRS set to ‘1’.
+	The reset value of this field is '0' if an NVM Subsystem Reset causes activation of a new firmware image.
+	 
+ 
+Scenario_2: 
+ 
+Enable (EN): When set to ‘1’, then the controller shall process commands based on Submission Queue Tail doorbell writes. 
+When cleared to ‘0’, then the controller shall not process commands nor post completion queue entries to Completion Queues.
+When this field is cleared to ‘0’, the CSTS.RDY bit is cleared to ‘0’ by the controller once the controller is ready to be re-enabled. 
+When this field is set to ‘1’, the controller sets CSTS.RDY to ‘1’ when it is ready to process commands. CSTS.RDY may be set to ‘1’ before namespace(s) are ready to be accessed.
+
+
+-----------------------------------------------------------------------------------------------------
+
+Questions:
+
+1)Describe Command flow ?
+
+2)what is difference between Format and Sanitise operations?
+
+3)If we need to do operation/alter data only on a single namespace, can we do it with Format ?
+
+4)Firmware Activation  -- various types ?
+Commit Action (CA) field in input
+
+5)Resets operation ?
+
+6)Controller reset?
+
+7)Difference between Cold reset and Warm reset ?
+
+8)Controller mapping of Logical addresses with that of physical memory regions ?
+
+9)Internal structure of NAND cell and divisions like die,block,page etc.
+
+10)3-bit NAND structure also called as ?
+
+11)Submission Queue and Completion Queue command structures ?
+
+12)How host come to know that controller has posted a completion queue entry ?
+ ---> Phasetag concept
+ 
+13)CSTS.NSSRO  --> What is this register ?
+
+14)data transferred is 8KiB or more...What it is called as ?
+PRP1, PRP 2 we create..when?
+
+15)Have you perfomed Shutdown operations ?
+
+
+

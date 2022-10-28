@@ -1,0 +1,36 @@
+Introduce yourself 
+
+On Which Framework do you work in your project ?
+
+What is Pytest Framework ?
+
+What are different datastructures present in python ?
+
+Tell about List and Tuples in Python ?
+
+Use of Map() (map method) in python ?
+
+What is Lambda function ?
+
+What are decorators in python?
+
+What are Access modifiers ?
+
+two programs were given and asked to code them using pycharm
+
+P1)
+"""nested list to flat list
+	1. Declare a class
+	2. Declare a function
+	3. print   from the main function
+	eg: input = [1,2,[3,4,[5,6,7],8,9],0]
+		output : [1,2,3,4,5,6,7,8,9,0] """
+		
+P2)
+
+particular repetition of element in the list to be asked,
+print the index position ot that element.
+element in the list.
+		a = [1,2,3,4,3,2,5,3,2,3,4,5,8,1,2,3,2] b = 2
+		output = 9
+		( element "2" 's thrid repetition position is at  index i= 9)

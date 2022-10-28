@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------------------
+Toshiba interview on 20/09 
+--------------------------------------------------------------------------------------------
+
+Explain about your project?
+
+How workflow take place..from where do you get assigned work ?
+	From where you get firmware 
+
+How the operation performed/ moved from host to SSD (flow) ?
+	
+What is created first -  admin queue or I/O queue ?
+
+Have you performed firmware activation and download. How it is done?
+
+How the controller come to know which completion Queue it should post the status of command completion?
+
+What all operations you have perfomed ?
+	
+Question about Admin commands... After I told various Admin commands I have worked
+	
+What is sanitise and types of sanitise?
+
+What is DST ? types of DST 
+
+whether firmware update/activation can take place when sanitise  is taking place ? When DST is in progress ?
+
+what "power-on OS" term indicate?
+
+Types of Resets ?
+
+other Admin commands -
+various log pages that we get using Get log page  ?
+	different log page it generates
+	Error log page --> What errors does it indicate or what erroes have you seen in this log ?
+	Tell some SMART parameters ? 
+
+Set features ? What features can be set ?
+	
+How do you come to know your command execution is successful by controller ?
+
+What does different bits in status code indicate? for example 00h - what each individual value indicates?
+
+How do you analyse a error generated? Do you try to find root cuase or just forward it? Have you worked on debugging it?
+
+
+After SSD Qs...Python related basic Qs
+Difference between interpreter and compiler languages?
+Difference between list and tuple?
+Qs on various list and tuple given...indexing and slicing and asked what is output?
+Pallindrome program
+finding out maximum and minimum number in a given list
+write program to find word count in a sentence
+program to match a substring in a given string 
+
+
+
+
+
+

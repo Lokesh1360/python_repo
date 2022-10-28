@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+Toshiba 3rd round interview 28-10-22
+----------------------------------------------------------------
+1. When format feature already present in NVMe, why do we need sanitise feature ?
+
+2. Tell the main use case of Sanitise operation ?
+
+3. Explain the flow of Admin Queues?....you should cover from creation at host side,there after passed to control and then processing by control to completion stage.
+
+4. What are Tail pointers and Head pointers in Admin queues. What is the purpose of those pointers?
+
+5. You said you have worked on DST Admin command. What is difference between Short DST and Extended DST ?
+
+6. Coming to resets.. What is difference between controller reset and functional reset ?
+	followed by difference between controller reset and NVMe subsystem reset ?
+
+7. AS you worked on PEL..Take any event of your wish(I chose format event) and write test cases for that PEL operation ? Should cover in an elaborative manner.
+
+8. Why you want to change your job?
+
+9. If we give you the job offer, will you join our organisation?
+
+10. Your resigning from  your present job after 3.5 years, will you follow the same course in our organisation ?
+
+11. Two puzzles were asked at the end, to check problem solving.
+
+
+------------------------------------------------------------
+Toshiba 2nd round 
+------------------------------------------------------------
+What is LBA ?
+
+Explain about Archiecture of SSD ?
+
+How command flow happens in NVMe ?
+
+Write program to check pallindrome (integer/string)?
+
+Write program to perform Binary serach operation ?
+	Input --> A list of numbers
+	output --> Print the position of number that us to be serached
+	
+File handling operation using python
+
+Difference between list and tuple ?

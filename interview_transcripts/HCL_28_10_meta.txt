@@ -1,0 +1,74 @@
+-------------------------------------------------------------
+HCL interview on 28/10 6pm ; Meta Project realted to Automation
+--------------------------------------------------------------
+What is namespace management?
+
+Why we you use namemapces? What is the main/most important purpose of creating namemapces?
+
+How we identify paricular namemapce?
+
+Write NVMe-CLI commands:
+	related to Number of drives mounted?
+	How much spare storage available or how much is it filled?
+	
+Do you have project experience on Linux based systems?
+
+Write sample commands related to your NVMe validation project?
+
+Write Structure of your NVMe validation test scenarios ?
+
+Why SSD based storage getting popular? What advantages that it offer ?
+
+Have you performed stress testing on the SSD drive ?
+
+-----------------
+Python related:
+------------------
+1.What is lambda funcation ?
+
+2.Consider a sample list and print even numbers using lambda funcation
+	# list_1 = [1,2,3,4,5,6,7]
+	# y = list(filter(lambda x:x%2==0,list_1))
+	# print(y)
+
+3. Difference between usage of Map method(map()) and filter method (filter())?
+
+4. write OOPs inheritance program for the below requirements :
+	#Three classes A,B,C; and each class take 2 arugments ; classes contatin following methods class A-> add ; class B ->subract ;class c-> multiply methods
+	#class D inherits A,B,c and it takes 3 arguments ; class D has math method -> it pass first two arguments x,y  to classes A,B,C and subract return value from z
+
+
+5. Hacker Rank login and asked to solve one program out of two main programs
+	Has chosen which at the first,
+	Name:- Autocorrect prototype
+	# Complete the 'getSearchResults' function below.
+	# The function is expected to return a 2D_STRING_ARRAY.
+	# The function accepts following parameters:
+		 1. STRING_ARRAY words
+		 2. STRING_ARRAY queries
+	# find out "Anagram" of string
+	# Query contain list of words
+	# search for Anagrams of each word from query list in the STRING_ARRAY words (list)
+	# output/return should be nested list[[query],[anagrams]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

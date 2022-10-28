@@ -1,0 +1,20 @@
+Q. write program to reverse the given interger
+# num = int(input("Enter number to reverse: "))
+# reverse_num = 0
+# while (num>0):
+#     digit = num%10
+#     reverse_num = (reverse_num*10)+digit
+#     num = num//10
+# print(reverse_num)
+
+Q. Bit manipulation/ bit operations realted 
+# 8-bit integer number; reverse the bits
+# input sample = 10101010
+#output sample = 01010101
+
+
+Q. Perform swap operation on Hexa numbers
+# input_reg = 0xDCBA (16-bit)
+# output_reg = 0XBADC
+
+Q. Find the second max number in the given list. write optimised code (use single loop)

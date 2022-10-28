@@ -1,0 +1,55 @@
+---------------------------------------------------------------------------------------
+L&T interview on 27-10; 1st round; Project realted to testing 5G Qualcomm modems
+---------------------------------------------------------------------------------------
+
+1.consider the text file with following data. (frequently encountering file handling realted Qs in interviews )
+	Architecture:          x86_64
+	CPU op-mode(s):        32-bit, 64-bit
+	Byte Order:            Little Endian
+	CPU(s):                8
+	On-line CPU(s) list:   0-7
+	Thread(s) per core:    2
+	Core(s) per socket:    4
+	Socket(s):             1
+	NUMA node(s):          1
+	Vendor ID:             GenuineIntel
+	CPU family:            6
+	Model:                 94
+
+	Requirement:
+	Read the above file and tranform the data into python dictionary.
+
+2. 
+	write a function that receives a List of strings,
+	the function should return a new List that contains the words that consist of the exact same letters,
+	the order of the words in the returned List should be like the order of the original.
+	For example:
+	List = ["pool", "hey", "why", "polo", "pol", "lopo", "apolo", "hye"]
+	So the function should return exactly:
+	ret = ['pool', 'hey', 'polo', 'lopo', 'hye']
+
+
+3.
+	class A: 
+    def __init__(self): 
+        self.__i = 1 
+        self.j = 5 
+    def display(self):
+        print(self.__i, self.j) 
+	class B(A): 
+		def __init__(self): 
+			super().__init__() 
+			self.__i = 2 
+			self.j = 7 
+	c = B() 
+	c.display()
+	
+	What is output? (The values of self.__i, self.j)
+
+4.What is difference between append and extend methods of lists ?
+
+5. Expalin OSI model ?(Networking related - 7 layer model)
+
+6. Difference between TCP and UDP protocols?
+
+7. Are you interested to work in testing of 5G mobile protocols

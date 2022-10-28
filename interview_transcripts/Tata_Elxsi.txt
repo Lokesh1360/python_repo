@@ -1,0 +1,64 @@
+1. 
+Input -->
+list_1 = [2,6,9]
+list_2 = [3]
+
+output should be -->
+[2,6,9,3]
+
+Which method do you use to get output list?
+
+list_1.extend(list_2)
+[2,6,9,3]
+
+2.
+Difference between del; pop and remove methods of list ?
+del list[2]
+list_1.pop()
+list_1.pop
+
+3.
+How you reverse the elements in a list?
+list_1[::-1]
+
+4.Use single liner to print the even numbers?
+ list_even = [element for element in list_1 if element%2 == 0]
+ list_even = [list_1[index] for index in range(len(list_1)) if index%2 == 0]
+
+5. What is the output of the following snippet?
+def fun_sample():
+	try:
+		return 1
+	
+	finally:
+		return 2
+
+print(fun_sample())
+
+
+6. Find the output
+def add(x):
+	x += [100]
+
+list_1 = [2,6,9]
+add(list_1)
+
+
+7. What is the value?
+class Test:
+	def __init__(self,x):
+		self.x = x
+		x = 10
+		
+
+test = Test(15)
+print(test.x)
+
+
+--------------------------------------------------------
+round 2
+-------------------------------------------------------
+1. Convert from string to list without using built-ins such as split()
+2. input= "My name is xyz" and output should print the string by removing spaces?
+3. Can we change given tuple into a list and vice-versa ?
+

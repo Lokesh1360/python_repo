@@ -1,0 +1,44 @@
+----------------Interview on 15/10 for Wipro recruting for Marvel Clinet----------------------------
+
+Which type of SSD device have you used...external or internal?
+
+Have worked on the validating performace of SSD drive ?
+performace parameters such as --> power consumption, time take to execute, write/read operations turnaround time,etc
+
+Get Feature command ?
+
+Have you worked on Power states of NVMe?    Total 32 power states..only four are used (p0.p1,p2,p3) (input by interviewer)
+
+Have you validated Identify controller data structure ? 
+
+What are different fields in the Identify controller data structure ?
+
+Have you used PCIe Analysers? If not what tools have you used for analysis ?
+
+How you resolved the script issues ? Did you work on finding rootcause of the issue?
+
+Which IDE/framework have you used for python scripting?
+
+Which concepts python have you used in your project ?
+
+What is Inheritance? Whay we used it?
+
+Differentiate List vs Tuple ?
+
+Open an Online python IDE and write Program for Fibonacci Series ?
+
+"""
+Fibonacci series --> 1,1,2,3,5,8
+"""
+length_series = int(input("lengh of fibonacci series: "))
+
+# element[n]+element[n+1]
+temp = 0
+num_1 = 1
+
+for i in range(0,length_series):
+    num_2 = num_1+temp
+    print(num_1)
+    temp = num_1
+    num_1 = num_2
+    
