@@ -1,0 +1,16 @@
+Capgemini Python Automation Requirement: (selenium webtesting,mobile device )
+Requirement: web page automation testing
+1. Have you used selenium in your automation project? If yes, Where did you use ?
+
+2.	
+given html code
+and asked me find xpath
+
+
+4.  are you aware of decorators of python ?
+
+
+
+
+
+

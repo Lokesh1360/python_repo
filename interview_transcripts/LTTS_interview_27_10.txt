@@ -53,3 +53,8 @@ L&T interview on 27-10; 1st round; Project realted to testing 5G Qualcomm modems
 6. Difference between TCP and UDP protocols?
 
 7. Are you interested to work in testing of 5G mobile protocols
+
+8. Problem statement:
+	Engineering college --> 3 departments and in each department there are 3 students and 2 subjects
+	output should be top 2 students in each subject
+	

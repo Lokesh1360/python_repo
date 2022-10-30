@@ -56,9 +56,9 @@ print(test.x)
 
 
 --------------------------------------------------------
-round 2
+Round 2
 -------------------------------------------------------
 1. Convert from string to list without using built-ins such as split()
-2. input= "My name is xyz" and output should print the string by removing spaces?
+2. input= "My name is xyz" and output should print the string by removing spaces
 3. Can we change given tuple into a list and vice-versa ?
 

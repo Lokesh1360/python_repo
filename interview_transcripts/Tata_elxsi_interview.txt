@@ -1,0 +1,47 @@
+list_1 = [2,6,9]
+list_2 = [3]
+
+list_1.append(list_2)
+[2,6,9,[3]]
+
+list_1.extend(list_2)
+[2,6,9,3]
+
+del list[2]
+list_1.pop()
+list_1.pop
+
+list_1[::-1]
+
+list_even = [element for element in list_1 if element%2 == 0]
+list_even = [list_1[index] for index in range(len(list_1)) if index%2 == 0]
+
+def fun_sample():
+	try:
+		return 1
+	
+	finally:
+		return 2
+
+print(fun_sample())
+
+list_1 = [2,6,9]
+list_2 = list_1
+list_1[0] = 4
+
+def add(x):
+	x += [100]
+
+list_1 = [2,6,9]
+add(list_1)
+
+
+
+class Test:
+	def __init__(self,x):
+		self.x = x
+		x = 10
+		
+
+test = Test(15)
+test.x

@@ -1,0 +1,35 @@
+Requirement - Firmware Validation with Python for client organisations of Brisa Consultancy
+First level screening at the payroll oraganisation level: Brisa Technologies
+
+------------------------------------ SSD related Qs: ----------------------------------------
+What did you validate in your project ?
+
+What are some read and write performance parameters of SSD? like time to take to perform read and write operations
+
+What does SSD made of up? NOR or NAND
+
+Difference between NOR and NAND gate?
+
+What are SLC, TLC and MLC in the architecture of NAND
+
+What commands did you execute in your SSD NVMe validation projects ?
+
+
+------------------------------------- python related Qs  ---------------------------------------
+Different Data Structures in Python?
+
+Difference between sets and frozensets?
+
+Difference between Multuple inheritance and Multilevel inheritance?
+
+Write code for following programs:
+	1.Print prime numbers in between 1-100 numbers?
+
+	2.List_1 = ["eg1@yahoo.com","eg2@gmail.com","eg3@outlook.com","eg4@gmail.com","eg3@gmail.com"]
+	  using regular expressions match only emails that contain gmail addresses
+			(code written by me)
+			pattern = re.compile("[a-zA-Z0-9]+\@+gmail+\.+com")
+			for word in list_1:
+				match = re.findall(pattern,word)
+				print(match)
+				

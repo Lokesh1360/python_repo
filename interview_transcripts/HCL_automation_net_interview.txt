@@ -1,0 +1,62 @@
+HCL Automation Project interview with knowledge of Networing concepts
+
+1. Create Dictionary from the two sample list given below ?
+ list_1 = [1,2,3,4,5]
+list_2 = ["a","b","c","d"]
+ sample_dict = {}
+
+# for index in range(min(len(list_1),len(list_2))):
+#     sample_dict[list_1[index]]=list_2[index]
+
+
+2.Swap Key, Value Pairs of the above generated dictionary in a single liner
+# reverse_dict = {value:key for key,value in sample_dict.items()}
+# print(reverse_dict)
+
+3. write program to check pallidrome for a number (interger pallidrome program)
+# # # integer pallidrome
+# # input_number = int(input("Enter a number:"))
+# # number = int(input_number)
+# # temp = 0
+# # reverse_integer = 0
+# # while(number>0):
+# #     temp = number%10
+# #     reverse_integer = reverse_integer*10+temp
+# #     number = number//10
+
+# # print(reverse_integer)
+# # if (input_number == reverse_integer):
+# #     print(f"{input_number} is pallindrome")
+# #     print("{} is pallindrome".format(input_number))
+# # else:
+# #     print("not pallindrome")
+    
+4. OOPS related programs
+	and Qs asked ---> Why self keyword; Can we create same object for two different classes ?
+# class Calc():
+#     def __init__(self,x,y):
+#         self.x = x
+#         self.y = y
+        
+        
+#     def add(self):
+#         return self.x+self.y
+    
+#     def mul(self):
+#         return self.x*self.y
+
+# input_1 = Calc(5,7)
+# input_2 = Calc(8,9)
+# print(input_1.add())
+# print(input_1.mul())
+
+
+5. Validate the IP address from the given input string or data stream
+input_string = "IP 10.1.1.1 DNS 10.10.10.0 IP2 192.168.132.256 DNS 8.8.8.8 DNS2 0.0.0.8"
+"""valid = 0-255 
+and not zero at first"""
+
+6. Sort the given list below without using any built-in sort methods
+	list_1 = [5,8,2,4,1,3]
+
+    
