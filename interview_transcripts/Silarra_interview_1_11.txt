@@ -1,0 +1,40 @@
+Silarra interview 1/11
+
+Can you expalin about some of the registers in NVMe
+
+Resets related
+
+Firmware activation steps
+
+Total How many slots are present in SSD device?
+
+Why there are many slots? What is the main purpose?
+
+Is your role limited to running test scripts or you also develop and debug them ?
+
+How you findout issues in your script
+
+HOw you get Trace for NVMe In-band (general SPEC) operations 
+
+What is most critical challenge you faced related to working on Admin commands
+
+Which NVMe - MI Spec version, did you work?
+
+Have you worked on NVMe 1.3 SPEC before working on NVMe 1.4 Spec
+
+Are you aware of new features in NVMe 2.0 SPEC 
+
+How in your team/in your project issues/bugs tracked or reported
+
+How we can check/get info realated to  the entries in Queues 
+
+
+
+
+
+ 
+
+
+
+
+

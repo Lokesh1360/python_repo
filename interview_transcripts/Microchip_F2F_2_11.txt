@@ -1,0 +1,37 @@
+Scenario given,
+	Repository is in US containing firmwares related to clients such as Micron,Intel and sanddisk
+	from office location in Bangalore using Linux commands and python, how do you fetch those files from repository
+	once you fetch them, you need to run them in different test pcs.....
+	How you are going to automate the scenario?
+	
+What is paramiko moudles and write different methods that we use for our operations/automation requirements with exact syntax?
+
+How you verify for sanitise feature support?
+
+Tell exact field name realted to sanitize in idenfiy controller data structure?
+
+Tell all the field names, you are aware of in identify conroller data structure ?
+
+How do you check for "generation type of controller" in the framework, what command are you going to give ?
+
+Have you worked on PCIE spec ?
+
+Are you aware of power states of the device, how we check for power states of device?
+
+prog: (re module)
+	you have file containing one lakh lines, in that data using regular expression
+	remove all unwanted special characters from data
+	write code for that using regular expression?
+	
+What all the modules did you work in python?
+
+Write subprocess moudule realted methods with syntax? (subprocess module)
+
+write program to print a random numner in the range 1 to 100? (random module)
+
+
+list = [1,2,3,4,5]
+s = "Hello"
+What is the output for,
+list.append(s)
+list.extend(s)

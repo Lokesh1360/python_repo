@@ -1,0 +1,73 @@
+Explain "DST" operation ?
+
+What is the main use case of DST operation?
+
+If we issue namespace relted command and firmware activation command, when DST going on. What wil happen?
+
+How we get to know/from where, that how much time that it takes to complete extended DST ?
+
+What is the initialisation sequence in the begining of the device. PCIe register checking etc. are you aware of that
+
+How to check enumeration of device?
+
+How the host will come to know the device is in PCIe slot is a SSD and not other device such as Graphic card ?
+
+what are the log pages did you work on Getlog page?
+
+What is "PEL" and usage of it?
+
+What are different types of events logged in PEL page?
+
+Take any event and explain the commands/test cases you are going to write to validate PEL feature?
+
+Have you worked on NVMe Hardware related event in the PEL events?
+
+Expalain the command flow for Admin Queues/commands ?
+
+Size of the LBAs you have used in your commands/opearations?
+
+If we want to change LBA to 4096 bytes, How you can make it?
+
+For get feature, set features commands...incase of failure, what type of status codes do we get?
+
+Difference between Identify contoller data structure and identify namespace data structure?
+
+Different types of resets you have worked?
+
+If reset happens, how will the host come to know, when to send commands to controller?
+
+NAND cell features ---> What is wear levelling, over provisioning and garbage collection (seperate Qs) ?
+
+Expain the TRIM commandd in SSD NVMe?
+
+what operations did you perform realted to NVMe - MI ?
+
+What is the hardware used/required in NVMe-MI/out-band ?
+
+How many ways, we can connect the device to host in out-band?
+
+How do you perform debug operation?
+
+What are issues do you get such as script related, firmware related and framework realted ?
+
+--------------------------------------------------------------------------------------------------
+python related
+--------------------------------------------------------------------------------------------------
+
+What is method overriding?
+
+How method overriding take place? How out program will decide to execute child method internally?
+
+What exactly is inheritace, if child inhertis parent means, what it exactly inheriting?
+
+What are decoratores and tell the usage in real scenarios?
+
+Which is better out of List and Tuple ?
+
+What are the three methods used with Lambda function?
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+
+# Program to print number vowels and consonants in a string
+
+class Alphabets:
+	def __init__(self, text):
+		self.text = text
+	
+	
+	def count(self):
+		self.test = self.text.lower()
+		vowels = ['a','e','i','o','u']
+		count_vowels = 0
+		count_consonants = 0
+		
+		for char in self.test:
+			if char in vowels and char != " " :
+				count_vowels += 1
+			
+			else:
+				if char != " " :
+					count_consonants += 1
+		
+		return f"count of vowels is {count_consonants} and count of consonants is---> {count_consonants}"
+				
+
+text = "I am an Indian"
+text_1 = Alphabets(text)
+print(text_1.count())
+		

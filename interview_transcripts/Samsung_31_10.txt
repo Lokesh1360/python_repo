@@ -1,0 +1,31 @@
+-------------------------------------
+Samsung Interview 31-10
+-------------------------------------
+Explain Firmware download and firmware activation Commands 
+Expalin Write Zeros commands and Why we use it ?
+What is (Architecture) of NVMe ?
+Differenct types of NAND cells in SSD ?
+Which one is expensive and which one is high in performance among different types of NAND cells ?
+Tell few differnce between XNAND and XOR ?
+What are the various admin commands used in NVMe-MI spec ?
+
+
+
+Pytest Framwork related
+What are fixtures?
+Explain Parametrize marker using a scenario ?
+Various builin markers in pytest ?
+Why we use assert statements
+What is "try block" in python
+Difference between list and tuple ?
+How you Concatenate two different tuples ?
+Difference between .py and .pyc in python?
+What is the role of Paramiko module in your automation project ?
+What is the tool you used to track bugs ?
+How you remove a file using OS module in python?
+You have input file containing some data (lines), How you print them in reverse order ?
+Is python is case-sensitive or not ?
+
+
+
+

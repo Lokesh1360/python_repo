@@ -1,0 +1,21 @@
+List --> Container of data. Mutable,ordered,heterogeneous type data structure
+
+-------------------   append() -->
+
+
+
+--------------------  insert()  --> Can insert element/object at any position specified by index in the list  ----------------------
+syntax: list_name.insert(index, element)
+Returns: Does not return any value.
+
+note:- the string does not have attribute insert() (string.insert() --------> throw Attribute error)
+tip:
+    index = list1.index(beforeElement)
+   # Insert element at beforeElement
+    list1.insert(index, element)
+    print(list1)
+
+--------------------------------------------------------------------------------------------------------------
+ Note:- can only concatenate list (not "tuple" or not "int") to list
+   req_list = sample_list + (4,5,6)
+"TypeError: can only concatenate list (not "tuple") to list"
